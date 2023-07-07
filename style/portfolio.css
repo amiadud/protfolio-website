@@ -13,7 +13,7 @@ body{
     font-size:18px;
     color: white;
     padding: 10px 20px;
-    font-weight: 800;
+    font-weight: 700;
     border-radius: 10px;
 }
 
@@ -95,7 +95,7 @@ main{
 
 /* about section style */
 .about{
-    padding: 150px;
+    padding: 130px;
     background-color: #fff8f3;
     border-radius: 10px;
     padding: 20px;
@@ -119,14 +119,44 @@ main{
 .what-id-do-des{
     padding: 30px 150px;
 }
+/* skill related style */
+
 .skill-container{
     display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-around;
-    
 }
 .skill{
     border: 3px solid red;
-    margin-right: 10px;
+    padding: 30px;
+    margin-right: 5px;
+}
+
+/* resume section style */
+.resume-colum-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+.resome-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-institute, .resume-item-des{
+    color: #757575;
+}
+.resome-container hr{
+    margin: 30px;
+}
+.resume-items-title{
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-des{
+    text-align: justify;
+}
+.donwload-cv{
+    text-align: center;
 }
