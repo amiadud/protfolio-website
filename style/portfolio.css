@@ -17,6 +17,17 @@ body{
     border-radius: 10px;
 }
 
+.section-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-des{
+    font-weight: 400;
+    text-align: center;
+}
+
 /* nav related style */
 nav{
     display: flex;
@@ -43,14 +54,41 @@ nav a{
 
 /* header related style */
 .main-header{
-    background-color: azure;
+    background-image: url('/imgs/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 50px 30px 150px;
+    padding: 30px 30px 0px 150px;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .profile-pic{
     width: 500px;
+}
+.banner-greating{
+    font-size: 45px;
+    color:#474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 84px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-des{
+    width: 540px;
+}
+
+/* main section styles */
+
+
+/* about section style */
+.about{
+    margin: 130px 7px;
 }
