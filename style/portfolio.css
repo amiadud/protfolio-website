@@ -27,7 +27,6 @@ body{
 .section-des{
     font-weight: 400;
     text-align: center;
-    padding: 40px;
 }
 
 /* nav related style */
@@ -159,4 +158,33 @@ main{
 }
 .donwload-cv{
     text-align: center;
+}
+
+/* footer style */
+
+footer{
+    display: flex;
+    background-color: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+    
+}
+.social-links{
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"],
+textarea{
+    color: #757575;
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: none;
+    width: 100%;
 }
