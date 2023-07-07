@@ -22,10 +22,12 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     font-weight: 700;
+    
 }
 .section-des{
     font-weight: 400;
     text-align: center;
+    padding: 40px;
 }
 
 /* nav related style */
@@ -86,9 +88,45 @@ nav a{
 }
 
 /* main section styles */
-
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
 
 /* about section style */
 .about{
-    margin: 130px 7px;
+    padding: 150px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.about-info{
+    text-align: center;
+    line-height: 10px;
+}
+.info-title{
+    font-weight: 400;
+}
+.info-description{
+    font-weight: 700;
+}
+.what-id-do-des{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.skill{
+    border: 3px solid red;
+    margin-right: 10px;
 }
