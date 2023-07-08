@@ -97,7 +97,7 @@ main{
     padding: 130px;
     background-color: #fff8f3;
     border-radius: 10px;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 130px 0px;
 }
 .about-info-container{
@@ -123,10 +123,12 @@ main{
 .skill-container{
     display: flex;
     gap: 10px;
+    border: none;
 }
 .skill{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 30px;
+    text-align: justify;
 }
 
 /* resume section style */
@@ -176,8 +178,9 @@ footer{
 .social-links{
     margin-right: 25px;
 }
-.contact input[type="text"], .contact input[type="email"],
+.contact input[type="text"], input[type="email"],
 textarea{
+    width: 100%;
     color: #757575;
     display: block;
     margin-bottom: 25px;
@@ -186,5 +189,5 @@ textarea{
     border-radius: 5px;
     background-color: #FFF;
     border: none;
-    width: 100%;
+    
 }
